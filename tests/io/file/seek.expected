@@ -1,0 +1,91 @@
+[x] sceIoLseek - files
+[x]   Invalid fd: ffffffff80020323
+[x]   0: ffffffff80020325
+[x]   1: ffffffff800200d1
+[x]   2: ffffffff800200d1
+[r]   Valid fd: 0000000000000000
+
+[x] sceIoLseek - offsets
+[r]   +Negative: ffffffffffffffff
+[r]   +Positive: 000000000000000a
+[r]   +Negative again: 0000000000000000
+[r]   +Zero: 0000000000000000
+[r]   End +1: 000000000000005e
+[r]   End +0: 000000000000005d
+[r]   End +-0x1000: ffffffffffffffff
+
+[x] sceIoLseek - whence
+[r]   END: 000000000000005d
+[r]   CUR: 000000000000005d
+[r]   SET: 0000000000000000
+[x]   4: ffffffff80020324
+[x]   -1: ffffffff80020324
+
+[x] sceIoLseek32 - files
+[x]   Invalid fd: ffffffff80020323
+[x]   0: ffffffff80020325
+[x]   1: ffffffff800200d1
+[x]   2: ffffffff800200d1
+[r]   Valid fd: 0000000000000000
+
+[x] sceIoLseek32 - offsets
+[r]   +Negative: ffffffffffffffff
+[r]   +Positive: 000000000000000a
+[r]   +Negative again: 0000000000000000
+[r]   +Zero: 0000000000000000
+[r]   End +1: 000000000000005e
+[r]   End +0: 000000000000005d
+[r]   End +-0x1000: ffffffffffffffff
+
+[x] sceIoLseek32 - whence
+[r]   END: 000000000000005d
+[r]   CUR: 000000000000005d
+[r]   SET: 0000000000000000
+[x]   4: ffffffff80020324
+[x]   -1: ffffffff80020324
+
+[x] sceIoLseekAsync - files
+[x]   Invalid fd: ffffffff80020323
+[x]   0: ffffffff80020325
+[x]   1: ffffffff800200d1
+[x]   2: ffffffff800200d1
+[r]   Valid fd: 0000000000000000
+
+[x] sceIoLseekAsync - offsets
+[r]   +Negative: ffffffffffffffff
+[r]   +Positive: 000000000000000a
+[r]   +Negative again: 0000000000000000
+[r]   +Zero: 0000000000000000
+[r]   End +1: 000000000000005e
+[r]   End +0: 000000000000005d
+[r]   End +-0x1000: ffffffffffffffff
+
+[x] sceIoLseekAsync - whence
+[r]   END: 000000000000005d
+[r]   CUR: 000000000000005d
+[r]   SET: 0000000000000000
+[x]   4: ffffffff80020324
+[x]   -1: ffffffff80020324
+
+[x] sceIoLseek32Async - files
+[x]   Invalid fd: ffffffff80020323
+[x]   0: ffffffff80020325
+[x]   1: ffffffff800200d1
+[x]   2: ffffffff800200d1
+[r]   Valid fd: 0000000000000000
+
+[x] sceIoLseek32Async - offsets
+[r]   +Negative: ffffffffffffffff
+[r]   +Positive: 000000000000000a
+[r]   +Negative again: 0000000000000000
+[r]   +Zero: 0000000000000000
+[r]   End +1: 000000000000005e
+[r]   End +0: 000000000000005d
+[r]   End +-0x1000: ffffffffffffffff
+
+[x] sceIoLseek32Async - whence
+[r]   END: 000000000000005d
+[r]   CUR: 000000000000005d
+[r]   SET: 0000000000000000
+[x]   4: ffffffff80020324
+[x]   -1: ffffffff80020324
