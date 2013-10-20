@@ -1,0 +1,70 @@
+[x] Slash usage
+[r]   Doubled slashes at device: Failed (80010016)
+[r]   Doubled slashes in path: Failed (80010016)
+[r]   Backslash at device: Success
+[r]   Backslash in path: Success
+[r]   Backslash after bad dir: Failed (80010002)
+[r]   Double backslashes at device: Failed (80010016)
+[r]   Double backslashes in path: Failed (80010016)
+
+[x] Trailing dots
+[r]   With dot: Success
+[r]   Without dot: Success
+[r]   Five dots: Success
+[r]   Without any: Success
+
+[x] Trailing spaces
+[r]   Trailing space: Failed (80010016)
+
+[x] Leading spaces
+[r]   Before device: Success
+[r]   Before filename: Success
+[r]   Before path: Failed (80010002)
+[r]   After colon: Failed (80010002)
+
+[x] Device name case
+[r]   Lowercase: Success
+[r]   Uppercase: Success
+[r]   Mixed: Success
+
+[x] Path/filename case
+[r]   Lowercase: Success
+[r]   Uppercase: Success
+[r]   Mixed case: Success
+
+[x] Special characters
+[r]   *: Failed (80010016)
+[r]   .: Success
+[r]   $: Success
+[r]   :: Failed (80010016)
+[r]   [: Success
+[r]   (: Success
+[r]   <: Failed (80010016)
+[r]   |: Failed (80010016)
+[r]   +: Success
+[r]   ~: Success
+[r]   &: Success
+[r]   %: Success
+[r]   #: Success
+[r]   ?: Failed (80010016)
+[r]   ': Success
+[r]   ": Failed (80010016)
+
+[x] Relative paths
+[r]   With ignored components: Success
+[r]   Relative: Success
+[r]   Relative inside root: Success
+[r]   Relative ouside root: Failed (80010002)
+
+[x] disc0:/ paths
+[r]   Uppercase: Success
+[x]   Lowercase: Failed (80010002)
+[x]   Backslash at device: Failed (80010002)
+[x]   Backslash in path: Failed (80010002)
+[r]   Trailing dot: Failed (80010002)
+[x]   Trailing space: Failed (80010002)
+[x]   Special char: Failed (80010002)
+[x]   Relative components: Failed (80010002)
+[r]   Relative: Success
+[x]   Relative inside root: Failed (80010002)
+[x]   Relative outside root: Failed (80010002)
